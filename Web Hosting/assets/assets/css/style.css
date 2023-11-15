@@ -166,3 +166,79 @@ margin-right: 20px;
 .plano .recomendado{
     background-color: #ff2a00;
 }
+.buscar-dominio{
+    background-color: #000000;
+    text-align: center;
+    padding: 5em 0;
+}
+.buscar-dominio h2{
+    color: #FFFFFF;
+    font-size: 42px;
+}
+.buscar-dominio p{
+    color: #FFFFFF;
+    font-size: 24px;
+    margin-top: 25px;
+}
+.buscar-dominio input{
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 28px;
+    border: none;
+}
+.buscar-dominio input[type=text]{
+    margin-bottom: 25px;
+    width: 60%;
+    padding: 20px;
+    font-size: 20px
+}
+.buscar-dominio input[type=submit]{
+    background: #5EF97A;
+    padding: 15px 30px;
+    font-size: 24px;
+    border-radius: 34pc;
+    color: #FFFFFF;
+}
+.contato-container{
+    text-align: center;
+    padding-top: 5em;
+    padding-bottom: 2em;
+}
+.contato-container h2{
+    font-size: 36px;
+}
+.contato-container p{
+font-size: 20px;
+margin-bottom: 40px
+}
+.contato-container input, .contato-container textarea{
+    width: 220px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+.contato-container textarea{
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 468px;
+    height: 150px;
+}
+footer{
+    text-align: center;
+    font-weight: 900;
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+height: 50px;
+background-color: #000000;
+color: #FFFFFF;
+display: flex;
+}
